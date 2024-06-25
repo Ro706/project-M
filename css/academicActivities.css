@@ -8,7 +8,7 @@ body{
   min-height: 100vh;
   background-color: #212121;
   color: white;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-family: 'Playwrite NG Modern', sans-serif;
 }
@@ -95,21 +95,10 @@ nav .logo:hover{
 .profile-info h1{
   font-size: larger;
 }
-.social-links{
+li{
   margin-top: 10px;
-}
-.fa-solid , .fa-brands{
-  font-size: 30px;
-  color:white;
+  list-style:circle;
   padding: 10px;
-}
-.fa-solid:hover{
-  transition: all 0.5s ease;
-  color:rgb(12, 194, 239);
-}
-.fa-brands:hover{
-  transition: all 0.5s ease;
-  color:rgb(12, 194, 239);
 }
 footer{
   margin-top: 20px;

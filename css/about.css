@@ -8,7 +8,7 @@ body{
   min-height: 100vh;
   background-color: #212121;
   color: white;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-family: 'Playwrite NG Modern', sans-serif;
 }
@@ -82,34 +82,15 @@ nav .logo:hover{
 .hideOnMobile{
   display: block;
 }
-.profile{
-  margin-top:70px;
-
+.about{
+    margin-top: 20px;
+    padding: 30px;
 }
 .profile-img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 20px;
-}
-.profile-info h1{
-  font-size: larger;
-}
-.social-links{
-  margin-top: 10px;
-}
-.fa-solid , .fa-brands{
-  font-size: 30px;
-  color:white;
-  padding: 10px;
-}
-.fa-solid:hover{
-  transition: all 0.5s ease;
-  color:rgb(12, 194, 239);
-}
-.fa-brands:hover{
-  transition: all 0.5s ease;
-  color:rgb(12, 194, 239);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
 }
 footer{
   margin-top: 20px;
@@ -139,8 +120,4 @@ footer{
       height: 100px;
       margin: 10px;
   }
-  .profile-info h1{
-    font-size: 20px;
-  }
-  
 }
