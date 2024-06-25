@@ -125,7 +125,7 @@ footer{
       display: block;
   }
   .sidebar{
-      display: flex;
+      display: none;
   }
 
   nav li :first-child{
